@@ -74,26 +74,3 @@ function dataParser(res) {
     }
   });
 }
-
-/**
- * customer use Wish marketplace to sell
- * Deliverr ship those items to buyers
- *
- * in order to identify items sent to Deliverr:
- * 1) Deliverr needs to download customer's product catalog (all the
- * items Deliverr may be asked to ship in future)
- * 2) Deliverr will also need to update inventory for those items so Wish knows when item is OOS
- *
- *
- *
- *
- * Constraints:
- * 1) only want to import items that have physical inventory (no digital item)
- * 2) don't care about state of item
- * 3) if different colors, we want to import 2 items (1 for red, 1 for blue)
- * 4) productId should be same identifier used to update inventory for that item
- * 5) every item must have a unique productId
- * 6) sku is free text (any value)
- * 7) title: short, human readable item descr
- * 8) ignore warehouse parameters
- */
