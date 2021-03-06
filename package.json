@@ -1,0 +1,22 @@
+{
+  "name": "deliverr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "task.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrdingma/deliverr_task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrdingma/deliverr_task/issues"
+  },
+  "homepage": "https://github.com/mrdingma/deliverr_task#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
