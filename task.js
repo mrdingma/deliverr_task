@@ -54,7 +54,7 @@ async function getAllProducts() {
 
     while (response.paging.next) {
       count++;
-      response = await getAllProducts(count * 250);
+      response = await getProducts(count * 250);
       dataParser(response);
     }
   } catch (err) {
